@@ -7,24 +7,22 @@
 
 import UIKit
 
+
 class miniquizViewViewController: UIViewController {
 
-    @IBOutlet var Opcoes: [UIButton]!
+    @IBOutlet var opc: [UIButton]!
     
     
-    @IBOutlet var question: UILabel!
+
+    @IBOutlet var bt1: [UIButton]!
     
-    
-    
-    @IBAction func AaD(_ sender: UIButton) {
-        let index = Opcoes.firstIndex(of: sender) ?? 0
-        question.text = "\(index)"
-        
-        
-        
+  
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
     }
     
-    
+    question.text =
 
 
 }
