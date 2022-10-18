@@ -8,13 +8,17 @@
 import UIKit
 
 class resultadominiquizViewController: UIViewController {
-
+    @IBOutlet weak var LBAcertos: UILabel!
+    @IBOutlet weak var LBerros: UILabel!
+    @IBOutlet weak var pontuacao: UILabel!
+    
+    var numberCorrect = 0
+    var numberWrong = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+print(numberCorrect, numberWrong)
     }
-    
+    @IBAction func returnmainView(segue: UIStoryboardSegue){}
 
     
 

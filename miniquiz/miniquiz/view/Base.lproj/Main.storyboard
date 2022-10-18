@@ -24,30 +24,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ky-4K-cTO">
-                                <rect key="frame" x="147" y="377" width="80" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button 2"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5u-Cl-m05">
-                                <rect key="frame" x="147" y="497" width="80" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button 4"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOP-nc-3yj">
-                                <rect key="frame" x="147" y="440" width="80" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button 3"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNw-bD-1R9">
                                 <rect key="frame" x="16" y="20" width="45" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -69,13 +45,49 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-kB-UYd">
-                                <rect key="frame" x="149" y="328" width="78" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1R-Mm-QBe">
+                                <rect key="frame" x="141" y="507" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button 4"/>
+                                <connections>
+                                    <action selector="butoes:" destination="dA3-FA-UOd" eventType="touchUpInside" id="fgn-6G-pY1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVA-X7-yZf">
+                                <rect key="frame" x="141" y="451" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button 3"/>
+                                <connections>
+                                    <action selector="butoes:" destination="dA3-FA-UOd" eventType="touchUpInside" id="Pmg-dR-J3M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptX-q5-8mD">
+                                <rect key="frame" x="141" y="394" width="113" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button 2"/>
+                                <connections>
+                                    <action selector="butoes:" destination="dA3-FA-UOd" eventType="touchUpInside" id="lmU-ob-Hdr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ma0-kZ-ox8">
+                                <rect key="frame" x="141" y="346" width="113" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 1"/>
+                                <connections>
+                                    <action selector="butoes:" destination="dA3-FA-UOd" eventType="touchUpInside" id="XD2-HX-tWr"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cCC-LI-dkk"/>
@@ -84,12 +96,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="uGs-cK-pU6"/>
                     <connections>
-                        <outletCollection property="opc" destination="fbn-kB-UYd" collectionClass="NSMutableArray" id="xBb-vO-Wsv"/>
-                        <outletCollection property="opc" destination="fbn-kB-UYd" collectionClass="NSMutableArray" id="hnG-oj-z4Y"/>
-                        <outletCollection property="opc" destination="4Ky-4K-cTO" collectionClass="NSMutableArray" id="n7g-Yr-1Da"/>
-                        <outletCollection property="opc" destination="sOP-nc-3yj" collectionClass="NSMutableArray" id="1bI-pe-Vj8"/>
-                        <outletCollection property="opc" destination="e5u-Cl-m05" collectionClass="NSMutableArray" id="GJe-UO-92A"/>
-                        <segue destination="sK0-Pf-X9l" kind="show" identifier="Segueresultado" id="GWh-xa-SBB"/>
+                        <outlet property="question" destination="fOE-Vw-wgl" id="JSF-5T-ZVw"/>
+                        <outletCollection property="opcoes" destination="Ma0-kZ-ox8" collectionClass="NSMutableArray" id="HsS-dn-yt9"/>
+                        <outletCollection property="opcoes" destination="ptX-q5-8mD" collectionClass="NSMutableArray" id="AqX-cq-C3j"/>
+                        <outletCollection property="opcoes" destination="UVA-X7-yZf" collectionClass="NSMutableArray" id="JO3-G4-N9Q"/>
+                        <outletCollection property="opcoes" destination="B1R-Mm-QBe" collectionClass="NSMutableArray" id="Eip-73-AOJ"/>
+                        <segue destination="sK0-Pf-X9l" kind="show" identifier="segueresult" id="GWh-xa-SBB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1UM-U8-rnX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -186,6 +198,11 @@
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="7KL-n2-WpN"/>
+                    <connections>
+                        <outlet property="LBAcertos" destination="BpJ-Is-uH5" id="CQi-jt-VDN"/>
+                        <outlet property="LBerros" destination="7af-0a-VsG" id="nUV-OK-jbw"/>
+                        <outlet property="pontuacao" destination="bIp-AF-lLx" id="yxG-ya-QA8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZZ6-bK-y1w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="U5p-eB-Ng1" userLabel="Exit" sceneMemberID="exit"/>
